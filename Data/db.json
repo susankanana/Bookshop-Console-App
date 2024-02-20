@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "username": "susan",
+      "email": "susan@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "username": "1",
+      "email": "susan@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "Title": "Almanack of Naval",
+      "Description": "Tech book",
+      "Author": "Naval Ravikant"
+    },
+    {
+      "id": 2,
+      "Title": "Nice for what",
+      "Description": "Tech book",
+      "Author": "Susan Ravikant"
+    }
+  ],
+  "orders": [
+    {
+      "UserId": 1,
+      "BookId": 2,
+      "id": 1
+    }
+  ]
+}
